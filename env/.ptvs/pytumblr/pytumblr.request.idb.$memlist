@@ -1,0 +1,8 @@
+oauth
+time
+TumblrRequest
+json
+parse_qsl
+RedirectLimit
+urllib
+urllib2

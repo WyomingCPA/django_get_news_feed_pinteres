@@ -1,0 +1,29 @@
+﻿       <div class="col-md-3">
+          <div class="box box-primary">
+            <div class="box-header with-border">
+              <h3 class="box-title"></h3>
+            </div>
+            <!-- /.box-header -->
+            <div class="box-body">
+                <form role="form" method="post" action="{% url 'SetFilter' %}">
+                   {% csrf_token %}
+                <!-- textarea -->
+                <div class="bootstrap-timepicker">
+                     <div class="form-group">
+                        <label>Выводить последние сообщения за:</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control timepicker" name="recent_times" value="{{ recent_times }}">
+                            <div class="input-group-addon">
+                                <i class="fa fa-clock-o"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Применить</button>
+              </form>
+            </div>
+            <!-- /.box-body -->
+          </div>
+          <!-- /.box -->
+        </div>
+        <!-- /.col -->
