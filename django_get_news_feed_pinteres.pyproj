@@ -29,6 +29,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="django_get_news_feed_pinteres\gunicorn_config.py" />
     <Compile Include="manage.py" />
     <Compile Include="django_get_news_feed_pinteres\__init__.py" />
     <Compile Include="django_get_news_feed_pinteres\settings.py" />
