@@ -28,7 +28,7 @@ def read_all_pin(request):
     publish_pin = PinPublish.objects.filter(user=request.user).values('pin_item')
     tumblr_publish_pin = PinPublishThumblr.objects.filter(user=request.user).values('pin_item')
 
-    list_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=publish_pin) | Q(id_in=tumblr_publish_pin))
+    list_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=publish_pin) | Q(id__in=tumblr_publish_pin))
     
     paginator = Paginator(list_pin, 50)
     page = request.GET.get('page')
