@@ -26,8 +26,9 @@ def index():
 def read_all_pin(request):
     hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
     publish_pin = PinPublish.objects.filter(user=request.user).values('pin_item')
+    tumblr_publish_pin = PinPublishThumblr.objects.filter(user=request.user).values('pin_item')
 
-    list_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=publish_pin))
+    list_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=publish_pin) | Q(id_pin=tumblr_publish_pin))
     
     paginator = Paginator(list_pin, 50)
     page = request.GET.get('page')
@@ -46,8 +47,10 @@ def read_all_pin(request):
 @login_required()
 def queue_all_pin(request):
     hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
+    publish_pin = PinPublish.objects.filter(user=request.user).values('pin_item')
+    tumblr_publish_pin = PinPublishThumblr.objects.filter(user=request.user).values('pin_item')
 
-    list_pin = Pin.objects.exclude(Q(id__in=hide_pin))
+    list_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=tumblr_publish_pin)).filter(id__in=publish_pin)
 
     paginator = Paginator(list_pin, 50)
     page = request.GET.get('page')
@@ -106,7 +109,7 @@ def action_pin(request):
         if (pointer_action[0] == 'tumblr_publish_pin'):
             for item in pointer_user:
                 pin = Pin.objects.get(id=int(item))
-                create_post_tumblr(pin.text, pin.img_url)
+                create_post_tumblr(pin.text.encode('utf-8'), pin.img_url)
                 publish = PinPublishThumblr(user = request.user, pin_item = pin)
                 publish.save() 
                  

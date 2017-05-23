@@ -7,22 +7,29 @@ def count_category(request):
     try:
         hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
         publish_pin = PinPublish.objects.filter(user=request.user).values('pin_item')
-        all_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=publish_pin)).count()
+        tumblr_publish_pin = PinPublishThumblr.objects.filter(user=request.user).values('pin_item')
+
+        all_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=publish_pin) | Q(id__in=tumblr_publish_pin)).count()
 
     except:
         all_pin = 0
 
     try:
-         hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
-         queue_pin = Pin.objects.exclude(Q(id__in=hide_pin)).count()
+        hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
+        publish_pin = PinPublish.objects.filter(user=request.user).values('pin_item')
+        tumblr_publish_pin = PinPublishThumblr.objects.filter(user=request.user).values('pin_item')
+
+        queue_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=tumblr_publish_pin)).filter(id__in=publish_pin).count()
 
     except:
         queue_pin = 0
 
     try:
         hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
+        publish_pin = PinPublish.objects.filter(user=request.user).values('pin_item')
         tumblr_publish_pin = PinPublishThumblr.objects.filter(user=request.user).values('pin_item')
-        tumblr_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=tumblr_publish_pin)).count()
+
+        tumblr_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=tumblr_publish_pin)).filter(id__in=publish_pin).count()
 
     except:
         tumblr_pin = 0
