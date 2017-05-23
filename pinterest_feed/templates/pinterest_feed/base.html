@@ -40,7 +40,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-             
+    <link rel="stylesheet" href="{% static 'pinterest_feed/bootstrap/css/main.css' %}">         
   {% endblock %}
 
 </head>
@@ -174,8 +174,9 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <ul class="sidebar-menu">
         <li class="header">Меню</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="{% url 'read_all_pin' %}"><i class="fa fa-link"></i> <span>Сырые Пины</span></a></li>
-		<li class="active"><a href="{% url 'read_all_queue' %}"><i class="fa fa-link"></i> <span>Очередь</span></a></li>
+        <li class="active"><a href="{% url 'read_all_pin' %}"><i class="fa fa-link"></i> <span>Сырые Пины({{ all_pin }})</span></a></li>
+		<li class="active"><a href="{% url 'read_all_queue' %}"><i class="fa fa-link"></i> <span>Очередь({{ queue_pin }})</span></a></li>
+        <li class="active"><a href="{% url 'read_all_tumblr' %}"><i class="fa fa-link"></i> <span>tumblr({{ tumblr_pin }})</span></a></li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -244,15 +245,44 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <!-- Page script -->
 <script>
+    /* copy loaded thumbnails into carousel */
+    $('.row .thumbnail').on('load', function () {
+
+    }).each(function (i) {
+        if (this.complete) {
+            var item = $('<div class="item"></div>');
+            var itemDiv = $(this).parents('div');
+            var title = $(this).parent('a').attr("title");
+
+            item.attr("title", title);
+            $(itemDiv.html()).appendTo(item);
+            item.appendTo('.carousel-inner');
+            if (i == 0) { // set first item active
+                item.addClass('active');
+            }
+        }
+    });
+
+    /* activate the carousel */
+    $('#modalCarousel').carousel({ interval: false });
+
+    /* change modal title when slide changes */
+    $('#modalCarousel').on('slid.bs.carousel', function () {
+        $('.modal-title').html($(this).find('.active').attr("title"));
+    })
+
+    /* when clicking a thumbnail */
+    $('.row .thumbnail').click(function () {
+        var idx = $(this).parents('div').index();
+        var id = parseInt(idx);
+        $('#myModal').modal('show'); // show the modal
+        $('#modalCarousel').carousel(id); // slide carousel to selected
+
+    });
+
     $(function () {
         //Initialize Select2 Elements
         $(".select2").select2();
-    });
-
-    //Timepicker
-    $(".timepicker").timepicker({
-        showInputs: false,
-        showMeridian: false
     });
 
     //Enable iCheck plugin for checkboxes

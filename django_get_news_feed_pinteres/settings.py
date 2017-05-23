@@ -26,7 +26,7 @@ SECRET_KEY = '0d4564cd-087c-45da-99c7-4ec9e445f510'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'animegirl.wyomingcpa.ru', '81.177.140.90']
 
 SITE_ID = 1
 
@@ -68,6 +68,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # My context Processor
+                'pinterest_feed.context_processors.count_category',
             ],
         },
     },

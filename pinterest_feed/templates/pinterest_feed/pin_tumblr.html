@@ -1,4 +1,4 @@
-{% extends "pinterest_feed/base.html" %}
+﻿{% extends "pinterest_feed/base.html" %}
 {% load staticfiles %}
 {% load humanize %}
 {% block content %}
@@ -20,11 +20,17 @@
                 <!-- Check all button -->
                 <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i></button>
 
-
               <!-- /.form-group -->
               <div class="btn-group">
                 <select class="form-control select2" name="pointer_action" style="width: 100%;">
+                  <option selected="selected" value="tumblr_publish_pin">Publish Tumblr</option>
                   <option value="delete">Delete</option>
+                </select>
+              </div>
+              <!-- /.form-group -->
+              <div class="btn-group">
+                <select class="form-control select2" name="pointer_action" style="width: 100%;">
+                    <option selected="selected" value="tumblr_publish_pin">Publish Tumblr</option>
                 </select>
               </div>
               <!-- /.form-group -->

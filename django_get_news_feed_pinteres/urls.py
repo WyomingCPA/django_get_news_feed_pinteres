@@ -12,6 +12,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^pin/', pinterest_feed.views.read_all_pin, name='read_all_pin'),
     url(r'^queue/', pinterest_feed.views.queue_all_pin, name='read_all_queue'),
+    url(r'^tumblr/', pinterest_feed.views.read_all_tumblr, name='read_all_tumblr'),
     url(r'^action_pin/$', pinterest_feed.views.action_pin, name='action_pin'),
     url(r'^SetFilter/$', pinterest_feed.views.SetFilter, name='SetFilter'),
 ]

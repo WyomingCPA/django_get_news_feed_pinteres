@@ -36,6 +36,9 @@
     <Compile Include="django_get_news_feed_pinteres\wsgi.py" />
     <Compile Include="pinterest_feed\admin.py" />
     <Compile Include="pinterest_feed\apps.py" />
+    <Compile Include="pinterest_feed\context_processors.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pinterest_feed\management\commands\get_pin.py">
       <SubType>Code</SubType>
     </Compile>
@@ -226,6 +229,7 @@
     <Content Include="pinterest_feed\static\pinterest_feed\bootstrap\css\bootstrap.css.map" />
     <Content Include="pinterest_feed\static\pinterest_feed\bootstrap\css\bootstrap.min.css" />
     <Content Include="pinterest_feed\static\pinterest_feed\bootstrap\css\bootstrap.min.css.map" />
+    <Content Include="pinterest_feed\static\pinterest_feed\bootstrap\css\main.css" />
     <Content Include="pinterest_feed\static\pinterest_feed\bootstrap\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="pinterest_feed\static\pinterest_feed\bootstrap\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="pinterest_feed\static\pinterest_feed\bootstrap\fonts\glyphicons-halflings-regular.ttf" />
@@ -1124,11 +1128,12 @@
     <Content Include="pinterest_feed\static\pinterest_feed\plugins\timepicker\bootstrap-timepicker.js" />
     <Content Include="pinterest_feed\static\pinterest_feed\plugins\timepicker\bootstrap-timepicker.min.css" />
     <Content Include="pinterest_feed\static\pinterest_feed\plugins\timepicker\bootstrap-timepicker.min.js" />
-    <Content Include="pinterest_feed\templates\pinterest_feed\pin_table.html" />
     <Content Include="pinterest_feed\templates\pinterest_feed\base.html" />
     <Content Include="pinterest_feed\templates\pinterest_feed\include\filter_ads.html" />
     <Content Include="pinterest_feed\templates\pinterest_feed\index_dashboard.html" />
     <Content Include="pinterest_feed\templates\pinterest_feed\pin_queue.html" />
+    <Content Include="pinterest_feed\templates\pinterest_feed\pin_table.html" />
+    <Content Include="pinterest_feed\templates\pinterest_feed\pin_tumblr.html" />
     <Content Include="requirements.txt" />
   </ItemGroup>
   <ItemGroup>

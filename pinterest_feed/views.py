@@ -1,3 +1,5 @@
+ # -- coding: utf-8 --
+
 from django.shortcuts import render, redirect
 
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
@@ -44,12 +46,29 @@ def read_all_pin(request):
 @login_required()
 def queue_all_pin(request):
     hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
+
+    list_pin = Pin.objects.exclude(Q(id__in=hide_pin))
+
+    paginator = Paginator(list_pin, 50)
+    page = request.GET.get('page')
+    try:
+        list_pin = paginator.page(page)
+    except PageNotAnInteger:
+        # If page is not an integer, deliver first page.
+        list_pin = paginator.page(1)
+    except EmptyPage:
+        # If page is out of range (e.g. 9999), deliver last page of results.
+        list_pin = paginator.page(paginator.num_pages)
+
+
+    return render(request, 'pinterest_feed/pin_queue.html', {'list_pin': list_pin })
+
+@login_required()
+def read_all_tumblr(request):
+    hide_pin = PinHide.objects.filter(user=request.user).values('pin_item')
     tumblr_publish_pin = PinPublishThumblr.objects.filter(user=request.user).values('pin_item')
 
-    list_pin =  PinPublish.objects.exclude(id__in=hide_pin)
-    list_pin =  PinPublish.objects.exclude(id__in=tumblr_publish_pin)
-
-    list_pin = Pin.objects.filter(id__in=list_pin)
+    list_pin = Pin.objects.exclude(Q(id__in=hide_pin) | Q(id__in=tumblr_publish_pin))
 
     paginator = Paginator(list_pin, 50)
     page = request.GET.get('page')
@@ -132,7 +151,5 @@ def create_post_tumblr(title, img_url):
               listTag.append(tag)
               continue
           listTag.append(tag)
-
-
 
      client.create_photo('animegirlpin', state="queue", link='animegirlpin.tumblr.com', tags=listTag[:4], caption=title, source=str(img_url))

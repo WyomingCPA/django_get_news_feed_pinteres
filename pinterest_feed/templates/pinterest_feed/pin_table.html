@@ -1,9 +1,10 @@
 {% extends "pinterest_feed/base.html" %}
+{% load staticfiles %}
 {% load humanize %}
 {% block content %}
  <section class="content">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-xs-12">
           <div class="box box-primary">
             <div class="box-header with-border">
               <h3 class="box-title">Темы</h3>
@@ -11,15 +12,15 @@
             </div>
             <!-- /.box-header -->
               <form method="post" action="{% url 'action_pin' %}">
-                  {% csrf_token %}
+              {% csrf_token %}
                    
-            <div class="box-body no-padding">
+              <div class="box-body no-padding">
               <div class="mailbox-controls">
 
                 <!-- Check all button -->
                 <button type="button" class="btn btn-default btn-sm checkbox-toggle"><i class="fa fa-square-o"></i></button>
 
-                                <!-- /.form-group -->
+              <!-- /.form-group -->
               <div class="btn-group">
                 <select class="form-control select2" name="pointer_action" style="width: 100%;">
                   <option selected="selected" value="delete">Delete</option>
@@ -47,22 +48,12 @@
                 <!-- /.pull-right -->
 
               </div>
-              <div class="table-responsive mailbox-messages">
-                <table class="table table-hover table-striped">
-                  <tbody>
-              {% for item in list_pin %}
-                  <tr>
-                    <td><input type="checkbox" name="pointer_user[]" value="{{item.id}}"></td>
-                    <td class="mailbox-name">{{ item.text }}</td>
-                    <td class="mailbox-subject"><a href="{{ item.link }}" target="_blank">Открыть на сайте</a></td>
-                    <td class="mailbox-attachment"></td>
-                    <td><img src="{{ item.img_url }}" height="100" width="100"/></td>   
-                    <td class="mailbox-date">{{ item.time_parsing|naturaltime }}</td>
-                  </tr>
-              {% endfor %}                     
-                  </tbody>
-                </table>
-                <!-- /.table -->
+              <div class="box">
+                <div class="box-body mailbox-messages">
+                    {% for item in list_pin %}
+                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="{{ item.text }} - {{ item.time_parsing|naturaltime }}" href="{{ item.link }}"><img class="thumbnail img-responsive" src="{{ item.img_url }}"></a><input type="checkbox" name="pointer_user[]" value="{{item.id}}"></div>
+                    {% endfor %} 
+                </div>
               </div>
               <!-- /.mail-box-messages -->
             </div>
@@ -96,12 +87,15 @@
           </div>
           <!-- /. box -->
         </div>
-
-        <!--Form Filter-->
-            {% include 'pinterest_feed/include/filter_ads.html' %} 
-        <!--Ends Form Filter-->
-    </div>       
-                     
+    </div>                          
  </section>
 
 {% endblock %}
+
+
+
+
+
+
+
+
