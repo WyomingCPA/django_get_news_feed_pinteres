@@ -82,7 +82,7 @@ def read_all_tumblr(request):
         list_pin = paginator.page(paginator.num_pages)
 
 
-    return render(request, 'pinterest_feed/pin_queue.html', {'list_pin': list_pin })
+    return render(request, 'pinterest_feed/pin_tumblr.html', {'list_pin': list_pin })
 
 
 @login_required()
