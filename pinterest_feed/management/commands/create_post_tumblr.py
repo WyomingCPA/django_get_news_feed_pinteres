@@ -15,7 +15,7 @@ class Command(BaseCommand):
 
         for item in options['pin_id']:
             pin = Pin.objects.get(id=int(item))
-            create_post_tumblr(pin.text.encode('utf-8'), pin.img_url)
+            self.create_post_tumblr(pin.text.encode('utf-8'), pin.img_url)
             publish = PinPublishThumblr(user = request.user, pin_item = pin)
             publish.save() 
 
