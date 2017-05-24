@@ -13,9 +13,7 @@ from django.db.models import Q
 from django.core.management import call_command
 
 
-import re
 
-import pytumblr
 
 
 def test():

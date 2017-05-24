@@ -4,6 +4,9 @@ from django.core.management.base import BaseCommand, CommandError
 
 from pinterest_feed.models import Pin, PinPublishThumblr, SettingsModel
 
+import re
+import pytumblr
+
 class Command(BaseCommand):
     def add_arguments(self, parser):
         parser.add_argument('pin_id', nargs='+', type=int)
