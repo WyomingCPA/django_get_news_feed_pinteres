@@ -3,7 +3,7 @@
 from django.core.management.base import BaseCommand, CommandError
 
 from pinterest_feed.models import Pin, PinPublishThumblr, SettingsModel
-
+from django.contrib.auth.models import User
 import re
 import pytumblr
 
@@ -19,7 +19,8 @@ class Command(BaseCommand):
         for item in options['pin_id']:
             pin = Pin.objects.get(id=int(item))
             self.create_post_tumblr(pin.text.encode('utf-8'), pin.img_url)
-            publish = PinPublishThumblr(pin_item = pin)
+            user = User.objects.get(id=1)
+            publish = PinPublishThumblr(user = user, pin_item = pin)
             publish.save() 
 
         s2 = SettingsModel(True)
