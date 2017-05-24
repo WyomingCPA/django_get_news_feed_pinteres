@@ -40,6 +40,9 @@
     <Compile Include="pinterest_feed\context_processors.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="pinterest_feed\management\commands\create_post_tumblr.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pinterest_feed\management\commands\get_pin.py">
       <SubType>Code</SubType>
     </Compile>

@@ -29,5 +29,14 @@ class PinPublishThumblr(models.Model):
     time_update = models.DateTimeField(auto_now = True)
 
 
+class SettingsModel(models.Model):
+    successOperation = models.BooleanField(default=True)
+
+    def save(self):
+        self.pk = 1
+        super(SettingsModel, self).save()
+
+
+
 
 

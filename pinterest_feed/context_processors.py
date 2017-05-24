@@ -1,4 +1,4 @@
-from .models import Pin, PinHide, PinPublish, PinPublishThumblr
+from .models import Pin, PinHide, PinPublish, PinPublishThumblr, SettingsModel
 from django.db.models import Q
 
 from django.contrib.auth.models import User
@@ -37,3 +37,16 @@ def count_category(request):
 
 
     return { 'all_pin': all_pin, 'queue_pin': queue_pin, 'tumblr_pin' : tumblr_pin, }
+
+
+def admin_settings(request):
+    a_settings = SettingsModel.objects.first()
+    if (a_settings != None):
+        check_success = a_settings.successOperation
+
+    else:
+        s = SettingsModel(True)
+        s.save()
+        check_success = True
+
+    return { 'check_success' : check_success,  }
