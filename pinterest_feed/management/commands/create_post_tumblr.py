@@ -27,7 +27,7 @@ class Command(BaseCommand):
         s2 = SettingsModel(True)
         s2.save()
 
-    def create_post_tumblr(self, title, img_url):
+    def create_post_tumblr(self, title, img_url, c):
         client = pytumblr.TumblrRestClient(
             'cSXsJ8y4YkGsJkhwGQPnY1RIgkXUFvTRtS7MKC7QWBoKbCpwWF',
             'b8yO1HSR0eMgfjwpDjXrGnZsWqYkt0SiZl0Gq4ZhH9F0BVb1KA',
