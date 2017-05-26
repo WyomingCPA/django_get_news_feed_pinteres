@@ -6636,3 +6636,317 @@ C:\Program Files\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\P
 2017-05-21T03:13:56: Saving group "c:\users\wyomingcpa\documents\visual studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\tests"
 2017-05-21T03:13:56: End of group "c:\users\wyomingcpa\documents\visual studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\tests"
 2017-05-21T03:13:57: Deleting 0 files
+
+2017-05-26T22:57:51: Start analysis
+2017-05-26T22:57:51: [WARNING] Library was set explicitly - skipping path detection
+2017-05-26T22:57:51: IncludeModulesFromModulePath = win32com
+2017-05-26T22:57:54: Deleting 0 files
+2017-05-26T22:57:54: astropy.CallDepth = 0
+2017-05-26T22:57:54: matplotlib.CallDepth = 3
+2017-05-26T22:57:54: pandas.CallDepth = 0
+2017-05-26T22:57:54: sympy.CallDepth = 0
+2017-05-26T22:57:54: Start group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework" with 55 files
+2017-05-26T22:57:57: Parsing "rest_framework.authentication" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authentication.py")
+2017-05-26T22:57:57: Parsing "rest_framework.compat" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\compat.py")
+2017-05-26T22:57:57: Parsing "rest_framework.decorators" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\decorators.py")
+2017-05-26T22:57:57: Parsing "rest_framework.documentation" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\documentation.py")
+2017-05-26T22:57:57: Parsing "rest_framework.exceptions" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\exceptions.py")
+2017-05-26T22:57:57: Parsing "rest_framework.fields" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\fields.py")
+2017-05-26T22:57:57: Parsing "rest_framework.filters" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\filters.py")
+2017-05-26T22:57:57: Parsing "rest_framework.generics" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\generics.py")
+2017-05-26T22:57:57: Parsing "rest_framework.metadata" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\metadata.py")
+2017-05-26T22:57:57: Parsing "rest_framework.mixins" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\mixins.py")
+2017-05-26T22:57:57: Parsing "rest_framework.models" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\models.py")
+2017-05-26T22:57:57: Parsing "rest_framework.negotiation" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\negotiation.py")
+2017-05-26T22:57:57: Parsing "rest_framework.pagination" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\pagination.py")
+2017-05-26T22:57:57: Parsing "rest_framework.parsers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\parsers.py")
+2017-05-26T22:57:57: Parsing "rest_framework.permissions" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\permissions.py")
+2017-05-26T22:57:57: Parsing "rest_framework.relations" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\relations.py")
+2017-05-26T22:57:57: Parsing "rest_framework.renderers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\renderers.py")
+2017-05-26T22:57:57: Parsing "rest_framework.request" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\request.py")
+2017-05-26T22:57:57: Parsing "rest_framework.response" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\response.py")
+2017-05-26T22:57:57: Parsing "rest_framework.reverse" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\reverse.py")
+2017-05-26T22:57:57: Parsing "rest_framework.routers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\routers.py")
+2017-05-26T22:57:57: Parsing "rest_framework.schemas" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\schemas.py")
+2017-05-26T22:57:57: Parsing "rest_framework.serializers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\serializers.py")
+2017-05-26T22:57:57: Parsing "rest_framework.settings" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\settings.py")
+2017-05-26T22:57:57: Parsing "rest_framework.status" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\status.py")
+2017-05-26T22:57:57: Parsing "rest_framework.test" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\test.py")
+2017-05-26T22:57:57: Parsing "rest_framework.throttling" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\throttling.py")
+2017-05-26T22:57:57: Parsing "rest_framework.urlpatterns" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\urlpatterns.py")
+2017-05-26T22:57:57: Parsing "rest_framework.urls" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\urls.py")
+2017-05-26T22:57:57: Parsing "rest_framework.validators" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\validators.py")
+2017-05-26T22:57:57: Parsing "rest_framework.versioning" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\versioning.py")
+2017-05-26T22:57:57: Parsing "rest_framework.views" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\views.py")
+2017-05-26T22:57:57: Parsing "rest_framework.viewsets" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\viewsets.py")
+2017-05-26T22:57:57: Parsing "rest_framework" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\__init__.py")
+2017-05-26T22:57:57: Parsing "rest_framework.authtoken.admin" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authtoken\admin.py")
+2017-05-26T22:57:57: Parsing "rest_framework.authtoken.apps" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authtoken\apps.py")
+2017-05-26T22:57:57: Parsing "rest_framework.authtoken.models" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authtoken\models.py")
+2017-05-26T22:57:57: Parsing "rest_framework.authtoken.serializers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authtoken\serializers.py")
+2017-05-26T22:57:57: Parsing "rest_framework.authtoken.views" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authtoken\views.py")
+2017-05-26T22:57:57: Parsing "rest_framework.authtoken" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authtoken\__init__.py")
+2017-05-26T22:57:57: Parsing "rest_framework.authtoken.migrations" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\authtoken\migrations\__init__.py")
+2017-05-26T22:57:57: Parsing "rest_framework.templatetags.rest_framework" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\templatetags\rest_framework.py")
+2017-05-26T22:57:57: Parsing "rest_framework.templatetags" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\templatetags\__init__.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.breadcrumbs" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\breadcrumbs.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.encoders" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\encoders.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.field_mapping" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\field_mapping.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.formatting" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\formatting.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.html" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\html.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.humanize_datetime" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\humanize_datetime.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.mediatypes" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\mediatypes.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.model_meta" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\model_meta.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.representation" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\representation.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.serializer_helpers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\serializer_helpers.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils.urls" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\urls.py")
+2017-05-26T22:57:57: Parsing "rest_framework.utils" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework\utils\__init__.py")
+2017-05-26T22:57:57: Parsing complete
+2017-05-26T22:57:57: Analyzing "rest_framework.authentication"
+2017-05-26T22:57:57: Analyzing "rest_framework.compat"
+2017-05-26T22:57:57: Analyzing "rest_framework.decorators"
+2017-05-26T22:57:57: Analyzing "rest_framework.documentation"
+2017-05-26T22:57:57: Analyzing "rest_framework.exceptions"
+2017-05-26T22:57:57: Analyzing "rest_framework.fields"
+2017-05-26T22:57:57: Analyzing "rest_framework.filters"
+2017-05-26T22:57:57: Analyzing "rest_framework.generics"
+2017-05-26T22:57:57: Analyzing "rest_framework.metadata"
+2017-05-26T22:57:57: Analyzing "rest_framework.mixins"
+2017-05-26T22:57:57: Analyzing "rest_framework.models"
+2017-05-26T22:57:57: Analyzing "rest_framework.negotiation"
+2017-05-26T22:57:57: Analyzing "rest_framework.pagination"
+2017-05-26T22:57:57: Analyzing "rest_framework.parsers"
+2017-05-26T22:57:57: Analyzing "rest_framework.permissions"
+2017-05-26T22:57:57: Analyzing "rest_framework.relations"
+2017-05-26T22:57:57: Analyzing "rest_framework.renderers"
+2017-05-26T22:57:57: Analyzing "rest_framework.request"
+2017-05-26T22:57:57: Analyzing "rest_framework.response"
+2017-05-26T22:57:57: Analyzing "rest_framework.reverse"
+2017-05-26T22:57:57: Analyzing "rest_framework.routers"
+2017-05-26T22:57:57: Analyzing "rest_framework.schemas"
+2017-05-26T22:57:57: Analyzing "rest_framework.serializers"
+2017-05-26T22:57:57: Analyzing "rest_framework.settings"
+2017-05-26T22:57:57: Analyzing "rest_framework.status"
+2017-05-26T22:57:57: Analyzing "rest_framework.test"
+2017-05-26T22:57:57: Analyzing "rest_framework.throttling"
+2017-05-26T22:57:57: Analyzing "rest_framework.urlpatterns"
+2017-05-26T22:57:57: Analyzing "rest_framework.urls"
+2017-05-26T22:57:57: Analyzing "rest_framework.validators"
+2017-05-26T22:57:57: Analyzing "rest_framework.versioning"
+2017-05-26T22:57:57: Analyzing "rest_framework.views"
+2017-05-26T22:57:57: Analyzing "rest_framework.viewsets"
+2017-05-26T22:57:57: Analyzing "rest_framework"
+2017-05-26T22:57:57: Analyzing "rest_framework.authtoken.admin"
+2017-05-26T22:57:57: Analyzing "rest_framework.authtoken.apps"
+2017-05-26T22:57:57: Analyzing "rest_framework.authtoken.models"
+2017-05-26T22:57:57: Analyzing "rest_framework.authtoken.serializers"
+2017-05-26T22:57:57: Analyzing "rest_framework.authtoken.views"
+2017-05-26T22:57:57: Analyzing "rest_framework.authtoken"
+2017-05-26T22:57:57: Analyzing "rest_framework.authtoken.migrations"
+2017-05-26T22:57:57: Analyzing "rest_framework.templatetags.rest_framework"
+2017-05-26T22:57:57: Analyzing "rest_framework.templatetags"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.breadcrumbs"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.encoders"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.field_mapping"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.formatting"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.html"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.humanize_datetime"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.mediatypes"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.model_meta"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.representation"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.serializer_helpers"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils.urls"
+2017-05-26T22:57:57: Analyzing "rest_framework.utils"
+2017-05-26T22:57:57: Starting analysis of 55 modules
+2017-05-26T22:57:59: Analysis complete
+2017-05-26T22:57:59: Saving group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework"
+2017-05-26T22:57:59: End of group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework"
+2017-05-26T22:58:00: Deleting 0 files
+
+2017-05-26T22:58:19: Start analysis
+2017-05-26T22:58:20: [WARNING] Library was set explicitly - skipping path detection
+2017-05-26T22:58:20: IncludeModulesFromModulePath = win32com
+2017-05-26T22:58:21: Deleting 0 files
+2017-05-26T22:58:21: astropy.CallDepth = 0
+2017-05-26T22:58:21: matplotlib.CallDepth = 3
+2017-05-26T22:58:21: pandas.CallDepth = 0
+2017-05-26T22:58:21: sympy.CallDepth = 0
+2017-05-26T22:58:21: Start group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown" with 30 files
+2017-05-26T22:58:23: Parsing "markdown.blockparser" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\blockparser.py")
+2017-05-26T22:58:23: Parsing "markdown.blockprocessors" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\blockprocessors.py")
+2017-05-26T22:58:23: Parsing "markdown.inlinepatterns" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\inlinepatterns.py")
+2017-05-26T22:58:23: Parsing "markdown.odict" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\odict.py")
+2017-05-26T22:58:23: Parsing "markdown.postprocessors" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\postprocessors.py")
+2017-05-26T22:58:23: Parsing "markdown.preprocessors" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\preprocessors.py")
+2017-05-26T22:58:23: Parsing "markdown.serializers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\serializers.py")
+2017-05-26T22:58:23: Parsing "markdown.treeprocessors" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\treeprocessors.py")
+2017-05-26T22:58:23: Parsing "markdown.util" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\util.py")
+2017-05-26T22:58:23: Parsing "markdown" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\__init__.py")
+2017-05-26T22:58:23: Parsing "markdown.__main__" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\__main__.py")
+2017-05-26T22:58:23: Parsing "markdown.__version__" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\__version__.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.abbr" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\abbr.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.admonition" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\admonition.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.attr_list" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\attr_list.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.codehilite" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\codehilite.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.def_list" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\def_list.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.extra" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\extra.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.fenced_code" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\fenced_code.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.footnotes" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\footnotes.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.headerid" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\headerid.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.meta" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\meta.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.nl2br" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\nl2br.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.sane_lists" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\sane_lists.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.smarty" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\smarty.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.smart_strong" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\smart_strong.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.tables" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\tables.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.toc" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\toc.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions.wikilinks" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\wikilinks.py")
+2017-05-26T22:58:23: Parsing "markdown.extensions" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown\extensions\__init__.py")
+2017-05-26T22:58:23: Parsing complete
+2017-05-26T22:58:23: Analyzing "markdown.blockparser"
+2017-05-26T22:58:23: Analyzing "markdown.blockprocessors"
+2017-05-26T22:58:23: Analyzing "markdown.inlinepatterns"
+2017-05-26T22:58:23: Analyzing "markdown.odict"
+2017-05-26T22:58:23: Analyzing "markdown.postprocessors"
+2017-05-26T22:58:23: Analyzing "markdown.preprocessors"
+2017-05-26T22:58:23: Analyzing "markdown.serializers"
+2017-05-26T22:58:23: Analyzing "markdown.treeprocessors"
+2017-05-26T22:58:23: Analyzing "markdown.util"
+2017-05-26T22:58:23: Analyzing "markdown"
+2017-05-26T22:58:23: Analyzing "markdown.__main__"
+2017-05-26T22:58:23: Analyzing "markdown.__version__"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.abbr"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.admonition"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.attr_list"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.codehilite"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.def_list"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.extra"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.fenced_code"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.footnotes"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.headerid"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.meta"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.nl2br"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.sane_lists"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.smarty"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.smart_strong"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.tables"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.toc"
+2017-05-26T22:58:23: Analyzing "markdown.extensions.wikilinks"
+2017-05-26T22:58:23: Analyzing "markdown.extensions"
+2017-05-26T22:58:23: Starting analysis of 30 modules
+2017-05-26T22:58:24: Analysis complete
+2017-05-26T22:58:24: Saving group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown"
+2017-05-26T22:58:24: End of group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\markdown"
+2017-05-26T22:58:25: Deleting 0 files
+
+2017-05-26T22:59:01: Start analysis
+2017-05-26T22:59:01: [WARNING] Library was set explicitly - skipping path detection
+2017-05-26T22:59:01: IncludeModulesFromModulePath = win32com
+2017-05-26T22:59:03: Deleting 0 files
+2017-05-26T22:59:03: astropy.CallDepth = 0
+2017-05-26T22:59:03: matplotlib.CallDepth = 3
+2017-05-26T22:59:03: pandas.CallDepth = 0
+2017-05-26T22:59:03: sympy.CallDepth = 0
+2017-05-26T22:59:03: Start group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters" with 16 files
+2017-05-26T22:59:05: Parsing "django_filters.compat" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\compat.py")
+2017-05-26T22:59:05: Parsing "django_filters.conf" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\conf.py")
+2017-05-26T22:59:05: Parsing "django_filters.constants" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\constants.py")
+2017-05-26T22:59:05: Parsing "django_filters.exceptions" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\exceptions.py")
+2017-05-26T22:59:05: Parsing "django_filters.fields" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\fields.py")
+2017-05-26T22:59:05: Parsing "django_filters.filters" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\filters.py")
+2017-05-26T22:59:05: Parsing "django_filters.filterset" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\filterset.py")
+2017-05-26T22:59:05: Parsing "django_filters.models" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\models.py")
+2017-05-26T22:59:05: Parsing "django_filters.utils" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\utils.py")
+2017-05-26T22:59:05: Parsing "django_filters.views" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\views.py")
+2017-05-26T22:59:05: Parsing "django_filters.widgets" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\widgets.py")
+2017-05-26T22:59:05: Parsing "django_filters" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\__init__.py")
+2017-05-26T22:59:05: Parsing "django_filters.rest_framework.backends" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\rest_framework\backends.py")
+2017-05-26T22:59:05: Parsing "django_filters.rest_framework.filters" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\rest_framework\filters.py")
+2017-05-26T22:59:05: Parsing "django_filters.rest_framework.filterset" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\rest_framework\filterset.py")
+2017-05-26T22:59:05: Parsing "django_filters.rest_framework" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters\rest_framework\__init__.py")
+2017-05-26T22:59:05: Parsing complete
+2017-05-26T22:59:05: Analyzing "django_filters.compat"
+2017-05-26T22:59:05: Analyzing "django_filters.conf"
+2017-05-26T22:59:05: Analyzing "django_filters.constants"
+2017-05-26T22:59:05: Analyzing "django_filters.exceptions"
+2017-05-26T22:59:05: Analyzing "django_filters.fields"
+2017-05-26T22:59:05: Analyzing "django_filters.filters"
+2017-05-26T22:59:05: Analyzing "django_filters.filterset"
+2017-05-26T22:59:05: Analyzing "django_filters.models"
+2017-05-26T22:59:05: Analyzing "django_filters.utils"
+2017-05-26T22:59:05: Analyzing "django_filters.views"
+2017-05-26T22:59:05: Analyzing "django_filters.widgets"
+2017-05-26T22:59:05: Analyzing "django_filters"
+2017-05-26T22:59:05: Analyzing "django_filters.rest_framework.backends"
+2017-05-26T22:59:05: Analyzing "django_filters.rest_framework.filters"
+2017-05-26T22:59:05: Analyzing "django_filters.rest_framework.filterset"
+2017-05-26T22:59:05: Analyzing "django_filters.rest_framework"
+2017-05-26T22:59:05: Starting analysis of 16 modules
+2017-05-26T22:59:05: Analysis complete
+2017-05-26T22:59:05: Saving group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters"
+2017-05-26T22:59:05: End of group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\django_filters"
+2017-05-26T22:59:06: Deleting 0 files
+
+2017-05-26T23:02:50: Start analysis
+2017-05-26T23:02:50: [WARNING] Library was set explicitly - skipping path detection
+2017-05-26T23:02:50: IncludeModulesFromModulePath = win32com
+2017-05-26T23:02:51: Deleting 0 files
+2017-05-26T23:02:51: astropy.CallDepth = 0
+2017-05-26T23:02:51: matplotlib.CallDepth = 3
+2017-05-26T23:02:51: pandas.CallDepth = 0
+2017-05-26T23:02:51: sympy.CallDepth = 0
+2017-05-26T23:02:51: Start group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt" with 12 files
+2017-05-26T23:02:53: Parsing "jwt.algorithms" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\algorithms.py")
+2017-05-26T23:02:53: Parsing "jwt.api_jws" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\api_jws.py")
+2017-05-26T23:02:53: Parsing "jwt.api_jwt" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\api_jwt.py")
+2017-05-26T23:02:53: Parsing "jwt.compat" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\compat.py")
+2017-05-26T23:02:54: Parsing "jwt.exceptions" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\exceptions.py")
+2017-05-26T23:02:54: Parsing "jwt.utils" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\utils.py")
+2017-05-26T23:02:54: Parsing "jwt" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\__init__.py")
+2017-05-26T23:02:54: Parsing "jwt.__main__" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\__main__.py")
+2017-05-26T23:02:54: Parsing "jwt.contrib" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\contrib\__init__.py")
+2017-05-26T23:02:54: Parsing "jwt.contrib.algorithms.pycrypto" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\contrib\algorithms\pycrypto.py")
+2017-05-26T23:02:54: Parsing "jwt.contrib.algorithms.py_ecdsa" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\contrib\algorithms\py_ecdsa.py")
+2017-05-26T23:02:54: Parsing "jwt.contrib.algorithms" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt\contrib\algorithms\__init__.py")
+2017-05-26T23:02:54: Parsing complete
+2017-05-26T23:02:54: Analyzing "jwt.algorithms"
+2017-05-26T23:02:54: Analyzing "jwt.api_jws"
+2017-05-26T23:02:54: Analyzing "jwt.api_jwt"
+2017-05-26T23:02:54: Analyzing "jwt.compat"
+2017-05-26T23:02:54: Analyzing "jwt.exceptions"
+2017-05-26T23:02:54: Analyzing "jwt.utils"
+2017-05-26T23:02:54: Analyzing "jwt"
+2017-05-26T23:02:54: Analyzing "jwt.__main__"
+2017-05-26T23:02:54: Analyzing "jwt.contrib"
+2017-05-26T23:02:54: Analyzing "jwt.contrib.algorithms.pycrypto"
+2017-05-26T23:02:54: Analyzing "jwt.contrib.algorithms.py_ecdsa"
+2017-05-26T23:02:54: Analyzing "jwt.contrib.algorithms"
+2017-05-26T23:02:54: Starting analysis of 12 modules
+2017-05-26T23:02:54: Analysis complete
+2017-05-26T23:02:54: Saving group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt"
+2017-05-26T23:02:54: End of group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\jwt"
+2017-05-26T23:02:54: Start group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt" with 9 files
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.authentication" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\authentication.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.compat" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\compat.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.models" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\models.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.serializers" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\serializers.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.settings" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\settings.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.test" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\test.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.utils" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\utils.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt.views" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\views.py")
+2017-05-26T23:02:56: Parsing "rest_framework_jwt" ("C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt\__init__.py")
+2017-05-26T23:02:56: Parsing complete
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.authentication"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.compat"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.models"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.serializers"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.settings"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.test"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.utils"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt.views"
+2017-05-26T23:02:56: Analyzing "rest_framework_jwt"
+2017-05-26T23:02:56: Starting analysis of 9 modules
+2017-05-26T23:02:56: Analysis complete
+2017-05-26T23:02:56: Saving group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt"
+2017-05-26T23:02:56: End of group "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Lib\site-packages\rest_framework_jwt"
+2017-05-26T23:02:58: Deleting 0 files

@@ -28,6 +28,14 @@ class PinPublishThumblr(models.Model):
     pin_item = models.ForeignKey(Pin)
     time_update = models.DateTimeField(auto_now = True)
 
+#Опубликованный в Facebook
+class PinPublishFacebook(models.Model):
+    user = models.ForeignKey(User)
+    pin_item = models.ForeignKey(Pin)
+    time_update = models.DateTimeField(auto_now = True)
+
+
+
 
 class SettingsModel(models.Model):
     successOperation = models.BooleanField(default=True)

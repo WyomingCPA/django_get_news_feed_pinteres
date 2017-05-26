@@ -36,6 +36,9 @@
     <Compile Include="django_get_news_feed_pinteres\urls.py" />
     <Compile Include="django_get_news_feed_pinteres\wsgi.py" />
     <Compile Include="pinterest_feed\admin.py" />
+    <Compile Include="pinterest_feed\api.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pinterest_feed\apps.py" />
     <Compile Include="pinterest_feed\context_processors.py">
       <SubType>Code</SubType>
@@ -50,6 +53,9 @@
     <Compile Include="pinterest_feed\management\__init__.py" />
     <Compile Include="pinterest_feed\migrations\__init__.py" />
     <Compile Include="pinterest_feed\models.py" />
+    <Compile Include="pinterest_feed\serializers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="pinterest_feed\tests.py" />
     <Compile Include="pinterest_feed\views.py" />
     <Compile Include="pinterest_feed\__init__.py" />
