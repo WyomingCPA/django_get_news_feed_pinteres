@@ -15,13 +15,14 @@ class Command(BaseCommand):
 
         s1 = SettingsModel(False)
         s1.save()
-
+        c = 0
         for item in options['pin_id']:
             pin = Pin.objects.get(id=int(item))
-            self.create_post_tumblr(pin.text.encode('utf-8'), pin.img_url)
+            self.create_post_tumblr(pin.text.encode('utf-8'), pin.img_url, c)
             user = User.objects.get(id=1)
             publish = PinPublishThumblr(user = user, pin_item = pin)
             publish.save() 
+            c +=1
 
         s2 = SettingsModel(True)
         s2.save()
@@ -53,8 +54,9 @@ class Command(BaseCommand):
                 continue
 
             listTag.append(tag)
-
-        client.create_photo('animegirlpin', state="queue", link='animegirlpin.tumblr.com', tags=listTag[:4], caption=title, source=str(img_url))
-
+        if c % 2 == 0: 
+            client.create_photo('animegirlpin', state="queue", link='animegirlpin.tumblr.com', tags=listTag[:4], caption=title, source=str(img_url))
+        else:
+            client.create_photo('animegirlpin', state="published", link='animegirlpin.tumblr.com', tags=listTag[:4], caption=title, source=str(img_url))
 
     

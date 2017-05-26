@@ -26,18 +26,18 @@ class Command(BaseCommand):
     
         resp = session.get('https://api.pinterest.com/v1/boards/' + board + '/pins/?access_token=' + token + '&fields=id%2Clink%2Cnote%2Curl%2Cimage%2Cmetadata')
         parsed_json = json.loads(resp.content)
+
         try:
             for item in parsed_json['data']:
                 pin_url = item['url']
                 img_url = item['image']['original']['url']
                 text = item['note']
-
                 try:
                     Pin.objects.get(link=pin_url)
                 except Pin.MultipleObjectsReturned:
                     pass
                 except Pin.DoesNotExist:                  
-                   itemPin = Pin(text = text, img_url = img_url, link = pin_url)
+                   itemPin = Pin(text = text.encode('utf-8'), img_url = img_url, link = pin_url)
                    itemPin.save()
 
         except:
