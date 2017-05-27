@@ -1,4 +1,4 @@
-from .models import PinPublishThumblr, PinPublishFacebook
+from .models import PinPublishThumblr, PinPublishFacebook, Pin
 
 from django.contrib.auth.models import User
 
@@ -6,7 +6,7 @@ from rest_framework import serializers
 
 class ThumblrSerializer(serializers.ModelSerializer):
     class Meta:
-        model = PinPublishThumblr
+        model = Pin
         fields = '__all__'
 
 
