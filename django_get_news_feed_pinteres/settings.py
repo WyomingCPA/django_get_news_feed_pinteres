@@ -117,7 +117,6 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 # My context Processor
                 'pinterest_feed.context_processors.count_category',
-                'pinterest_feed.context_processors.admin_settings',
             ],
         },
     },
