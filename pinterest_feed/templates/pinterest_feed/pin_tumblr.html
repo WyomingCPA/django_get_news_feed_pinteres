@@ -50,15 +50,9 @@
               </div>
               <div class="box">
                 <div class="box-body mailbox-messages">
-                    {% if check_success %}
-                        {% for item in list_pin %}
-                            <div class="col-lg-3 col-sm-4 col-xs-6"><a title="{{ item.text }} - {{ item.time_parsing|naturaltime }}" href="{{ item.link }}"><img class="thumbnail img-responsive" src="{{ item.img_url }}"></a><input type="checkbox" name="pointer_user[]" value="{{item.id}}"></div>
-                        {% endfor %}
-                    {% else %}
-                        <p>Выполняется операция.... Подождите и обновите страницу</p>
-
-                    {% endif %}
- 
+                    {% for item in list_pin %}
+                        <div class="col-lg-3 col-sm-4 col-xs-6"><a title="{{ item.text }} - {{ item.time_parsing|naturaltime }}" href="{{ item.link }}"><img class="thumbnail img-responsive" src="{{ item.img_url }}"></a><input type="checkbox" name="pointer_user[]" value="{{item.id}}"></div>
+                    {% endfor %}
                 </div>
               </div>
               <!-- /.mail-box-messages -->
