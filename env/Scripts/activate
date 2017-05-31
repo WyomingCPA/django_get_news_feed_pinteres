@@ -39,7 +39,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'c:\users\wyomingcpa\documents\visual studio 2015\Projects\django_get_news_feed_pinteres\env'; else echo '/c/users/wyomingcpa/documents/visual studio 2015/Projects/django_get_news_feed_pinteres/env'; fi;)"
+VIRTUAL_ENV="$(if [ "$OSTYPE" "==" "cygwin" ]; then cygpath -u 'D:\Repos\django_get_news_feed_pinteres\env'; else echo '/D/Repos/django_get_news_feed_pinteres/env'; fi;)"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

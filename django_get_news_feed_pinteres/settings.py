@@ -132,7 +132,7 @@ WSGI_APPLICATION = 'django_get_news_feed_pinteres.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_get_news_feed_pinteres',
+        'NAME': 'anime_girl',
         'USER': 'root',
         'PASSWORD': '83448344f',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on

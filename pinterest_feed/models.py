@@ -37,14 +37,6 @@ class PinPublishFacebook(models.Model):
 
 
 
-class SettingsModel(models.Model):
-    successOperation = models.BooleanField(default=True)
-
-    def save(self):
-        self.pk = 1
-        super(SettingsModel, self).save()
-
-
 
 
 

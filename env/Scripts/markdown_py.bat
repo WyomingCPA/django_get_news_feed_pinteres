@@ -1,1 +1,1 @@
-@"C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Scripts\python.exe" "C:\Users\WyomingCPA\Documents\Visual Studio 2015\Projects\django_get_news_feed_pinteres\env\Scripts\markdown_py" %*
+@"D:\Repos\django_get_news_feed_pinteres\env\Scripts\python.exe" "D:\Repos\django_get_news_feed_pinteres\env\Scripts\markdown_py" %*

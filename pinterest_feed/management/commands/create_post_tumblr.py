@@ -2,7 +2,7 @@
 
 from django.core.management.base import BaseCommand, CommandError
 
-from pinterest_feed.models import Pin, PinPublishThumblr, SettingsModel
+from pinterest_feed.models import Pin, PinPublishThumblr
 from django.contrib.auth.models import User
 import re
 import pytumblr
@@ -19,15 +19,13 @@ class Command(BaseCommand):
         b = 0
         for item in options['pin_id']:
             pin = Pin.objects.get(id=int(item))
-            self.create_post_tumblr(pin.text.encode('utf-8'), pin.img_url, c, b)
-            user = User.objects.get(id=1)
-            publish = PinPublishThumblr(user = user, pin_item = pin)
-            publish.save() 
-            c +=1
-            b +=1
-
-        s2 = SettingsModel(True)
-        s2.save()
+            check_publish = self.create_post_tumblr(pin.text.encode('utf-8'), pin.img_url, c, b)
+            if (check_publish):              
+                user = User.objects.get(id=1)
+                publish = PinPublishThumblr(user = user, pin_item = pin)
+                publish.save() 
+                c +=1
+                b +=1
 
     def create_post_tumblr(self, title, img_url, c, b):
         client = pytumblr.TumblrRestClient(
@@ -56,14 +54,20 @@ class Command(BaseCommand):
                 continue
 
             listTag.append(tag)
+
         if b % 2 == 0:
             if c % 2 == 0: 
-                client.create_photo('animegirlpin', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
+                post = client.create_photo('animegirlpin', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
             else:
-                client.create_photo('animegirlpin', state="published", tags=listTag[:4], caption=title, source=str(img_url))
+                post = client.create_photo('animegirlpin', state="published", tags=listTag[:4], caption=title, source=str(img_url))
         else:
             if c % 2 == 0: 
-                client.create_photo('anime2018', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
+                post = client.create_photo('anime2018', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
             else:
-                client.create_photo('anime2018', state="published", tags=listTag[:4], caption=title, source=str(img_url))
+                post = client.create_photo('anime2018', state="published", tags=listTag[:4], caption=title, source=str(img_url))
+
+        result = 'id' in post
+        return result
+
+        
     

@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=c:\users\wyomingcpa\documents\visual studio 2015\Projects\django_get_news_feed_pinteres\env"
+set "VIRTUAL_ENV=D:\Repos\django_get_news_feed_pinteres\env"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
