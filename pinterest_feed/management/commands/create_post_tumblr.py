@@ -53,15 +53,9 @@ class Command(BaseCommand):
             listTag.append(tag)
 
         if b % 2 == 0:
-            if c % 2 == 0: 
-                post = client.create_photo('animegirlpin', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
-            else:
-                post = client.create_photo('animegirlpin', state="published", tags=listTag[:4], caption=title, source=str(img_url))
+            post = client.create_photo('animegirlpin', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
         else:
-            if c % 2 == 0: 
-                post = client.create_photo('anime2018', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
-            else:
-                post = client.create_photo('anime2018', state="published", tags=listTag[:4], caption=title, source=str(img_url))
+            post = client.create_photo('anime2018', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
 
         result = 'id' in post
         return result
