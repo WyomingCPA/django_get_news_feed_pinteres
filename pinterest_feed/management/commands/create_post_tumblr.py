@@ -12,9 +12,6 @@ class Command(BaseCommand):
         parser.add_argument('pin_id', nargs='+', type=int)
 
     def handle(self, *args, **options):
-
-        s1 = SettingsModel(False)
-        s1.save()
         c = 0
         b = 0
         for item in options['pin_id']:
