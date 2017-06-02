@@ -6277,3 +6277,253 @@ C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Micro
 2017-06-01T02:41:46: Saving group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\pip-9.0.1-py2.7.egg\pip"
 2017-06-01T02:41:46: End of group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\pip-9.0.1-py2.7.egg\pip"
 2017-06-01T02:41:47: Deleting 0 files
+
+2017-06-01T03:55:59: Start analysis
+2017-06-01T03:55:59: [WARNING] Library was set explicitly - skipping path detection
+2017-06-01T03:55:59: IncludeModulesFromModulePath = win32com
+2017-06-01T03:56:00: Deleting 0 files
+2017-06-01T03:56:00: astropy.CallDepth = 0
+2017-06-01T03:56:00: matplotlib.CallDepth = 3
+2017-06-01T03:56:00: pandas.CallDepth = 0
+2017-06-01T03:56:00: sympy.CallDepth = 0
+2017-06-01T03:56:00: Start group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\certifi" with 3 files
+2017-06-01T03:56:02: Parsing "certifi.core" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\certifi\core.py")
+2017-06-01T03:56:02: Parsing "certifi" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\certifi\__init__.py")
+2017-06-01T03:56:02: Parsing "certifi.__main__" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\certifi\__main__.py")
+2017-06-01T03:56:02: Parsing complete
+2017-06-01T03:56:02: Analyzing "certifi.core"
+2017-06-01T03:56:02: Analyzing "certifi"
+2017-06-01T03:56:02: Analyzing "certifi.__main__"
+2017-06-01T03:56:02: Starting analysis of 3 modules
+2017-06-01T03:56:02: Analysis complete
+2017-06-01T03:56:02: Saving group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\certifi"
+2017-06-01T03:56:02: End of group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\certifi"
+2017-06-01T03:56:02: Start group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet" with 41 files
+2017-06-01T03:56:04: Parsing "chardet.big5freq" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\big5freq.py")
+2017-06-01T03:56:04: Parsing "chardet.big5prober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\big5prober.py")
+2017-06-01T03:56:04: Parsing "chardet.chardistribution" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\chardistribution.py")
+2017-06-01T03:56:04: Parsing "chardet.charsetgroupprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\charsetgroupprober.py")
+2017-06-01T03:56:04: Parsing "chardet.charsetprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\charsetprober.py")
+2017-06-01T03:56:04: Parsing "chardet.codingstatemachine" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\codingstatemachine.py")
+2017-06-01T03:56:04: Parsing "chardet.compat" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\compat.py")
+2017-06-01T03:56:05: Parsing "chardet.cp949prober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\cp949prober.py")
+2017-06-01T03:56:05: Parsing "chardet.enums" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\enums.py")
+2017-06-01T03:56:05: Parsing "chardet.escprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\escprober.py")
+2017-06-01T03:56:05: Parsing "chardet.escsm" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\escsm.py")
+2017-06-01T03:56:05: Parsing "chardet.eucjpprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\eucjpprober.py")
+2017-06-01T03:56:05: Parsing "chardet.euckrfreq" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\euckrfreq.py")
+2017-06-01T03:56:05: Parsing "chardet.euckrprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\euckrprober.py")
+2017-06-01T03:56:05: Parsing "chardet.euctwfreq" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\euctwfreq.py")
+2017-06-01T03:56:05: Parsing "chardet.euctwprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\euctwprober.py")
+2017-06-01T03:56:05: Parsing "chardet.gb2312freq" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\gb2312freq.py")
+2017-06-01T03:56:05: Parsing "chardet.gb2312prober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\gb2312prober.py")
+2017-06-01T03:56:05: Parsing "chardet.hebrewprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\hebrewprober.py")
+2017-06-01T03:56:05: Parsing "chardet.jisfreq" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\jisfreq.py")
+2017-06-01T03:56:05: Parsing "chardet.jpcntx" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\jpcntx.py")
+2017-06-01T03:56:05: Parsing "chardet.langbulgarianmodel" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\langbulgarianmodel.py")
+2017-06-01T03:56:05: Parsing "chardet.langcyrillicmodel" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\langcyrillicmodel.py")
+2017-06-01T03:56:05: Parsing "chardet.langgreekmodel" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\langgreekmodel.py")
+2017-06-01T03:56:05: Parsing "chardet.langhebrewmodel" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\langhebrewmodel.py")
+2017-06-01T03:56:05: Parsing "chardet.langhungarianmodel" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\langhungarianmodel.py")
+2017-06-01T03:56:05: Parsing "chardet.langthaimodel" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\langthaimodel.py")
+2017-06-01T03:56:05: Parsing "chardet.langturkishmodel" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\langturkishmodel.py")
+2017-06-01T03:56:05: Parsing "chardet.latin1prober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\latin1prober.py")
+2017-06-01T03:56:05: Parsing "chardet.mbcharsetprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\mbcharsetprober.py")
+2017-06-01T03:56:05: Parsing "chardet.mbcsgroupprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\mbcsgroupprober.py")
+2017-06-01T03:56:05: Parsing "chardet.mbcssm" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\mbcssm.py")
+2017-06-01T03:56:05: Parsing "chardet.sbcharsetprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\sbcharsetprober.py")
+2017-06-01T03:56:05: Parsing "chardet.sbcsgroupprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\sbcsgroupprober.py")
+2017-06-01T03:56:05: Parsing "chardet.sjisprober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\sjisprober.py")
+2017-06-01T03:56:05: Parsing "chardet.universaldetector" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\universaldetector.py")
+2017-06-01T03:56:05: Parsing "chardet.utf8prober" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\utf8prober.py")
+2017-06-01T03:56:05: Parsing "chardet.version" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\version.py")
+2017-06-01T03:56:05: Parsing "chardet" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\__init__.py")
+2017-06-01T03:56:05: Parsing "chardet.cli.chardetect" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\cli\chardetect.py")
+2017-06-01T03:56:05: Parsing "chardet.cli" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet\cli\__init__.py")
+2017-06-01T03:56:05: Parsing complete
+2017-06-01T03:56:05: Analyzing "chardet.big5freq"
+2017-06-01T03:56:05: Analyzing "chardet.big5prober"
+2017-06-01T03:56:05: Analyzing "chardet.chardistribution"
+2017-06-01T03:56:05: Analyzing "chardet.charsetgroupprober"
+2017-06-01T03:56:05: Analyzing "chardet.charsetprober"
+2017-06-01T03:56:05: Analyzing "chardet.codingstatemachine"
+2017-06-01T03:56:05: Analyzing "chardet.compat"
+2017-06-01T03:56:05: Analyzing "chardet.cp949prober"
+2017-06-01T03:56:05: Analyzing "chardet.enums"
+2017-06-01T03:56:05: Analyzing "chardet.escprober"
+2017-06-01T03:56:05: Analyzing "chardet.escsm"
+2017-06-01T03:56:05: Analyzing "chardet.eucjpprober"
+2017-06-01T03:56:05: Analyzing "chardet.euckrfreq"
+2017-06-01T03:56:05: Analyzing "chardet.euckrprober"
+2017-06-01T03:56:05: Analyzing "chardet.euctwfreq"
+2017-06-01T03:56:05: Analyzing "chardet.euctwprober"
+2017-06-01T03:56:05: Analyzing "chardet.gb2312freq"
+2017-06-01T03:56:05: Analyzing "chardet.gb2312prober"
+2017-06-01T03:56:05: Analyzing "chardet.hebrewprober"
+2017-06-01T03:56:05: Analyzing "chardet.jisfreq"
+2017-06-01T03:56:05: Analyzing "chardet.jpcntx"
+2017-06-01T03:56:05: Analyzing "chardet.langbulgarianmodel"
+2017-06-01T03:56:05: Analyzing "chardet.langcyrillicmodel"
+2017-06-01T03:56:05: Analyzing "chardet.langgreekmodel"
+2017-06-01T03:56:05: Analyzing "chardet.langhebrewmodel"
+2017-06-01T03:56:05: Analyzing "chardet.langhungarianmodel"
+2017-06-01T03:56:05: Analyzing "chardet.langthaimodel"
+2017-06-01T03:56:05: Analyzing "chardet.langturkishmodel"
+2017-06-01T03:56:05: Analyzing "chardet.latin1prober"
+2017-06-01T03:56:05: Analyzing "chardet.mbcharsetprober"
+2017-06-01T03:56:05: Analyzing "chardet.mbcsgroupprober"
+2017-06-01T03:56:05: Analyzing "chardet.mbcssm"
+2017-06-01T03:56:05: Analyzing "chardet.sbcharsetprober"
+2017-06-01T03:56:05: Analyzing "chardet.sbcsgroupprober"
+2017-06-01T03:56:05: Analyzing "chardet.sjisprober"
+2017-06-01T03:56:05: Analyzing "chardet.universaldetector"
+2017-06-01T03:56:05: Analyzing "chardet.utf8prober"
+2017-06-01T03:56:05: Analyzing "chardet.version"
+2017-06-01T03:56:05: Analyzing "chardet"
+2017-06-01T03:56:05: Analyzing "chardet.cli.chardetect"
+2017-06-01T03:56:05: Analyzing "chardet.cli"
+2017-06-01T03:56:05: Starting analysis of 41 modules
+2017-06-01T03:56:06: Analysis complete
+2017-06-01T03:56:06: Saving group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet"
+2017-06-01T03:56:06: End of group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\chardet"
+2017-06-01T03:56:06: Start group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna" with 7 files
+2017-06-01T03:56:08: Parsing "idna.codec" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna\codec.py")
+2017-06-01T03:56:08: Parsing "idna.compat" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna\compat.py")
+2017-06-01T03:56:08: Parsing "idna.core" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna\core.py")
+2017-06-01T03:56:08: Parsing "idna.idnadata" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna\idnadata.py")
+2017-06-01T03:56:08: Parsing "idna.intranges" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna\intranges.py")
+2017-06-01T03:56:08: Parsing "idna.uts46data" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna\uts46data.py")
+2017-06-01T03:56:08: Parsing "idna" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna\__init__.py")
+2017-06-01T03:56:08: Parsing complete
+2017-06-01T03:56:08: Analyzing "idna.codec"
+2017-06-01T03:56:08: Analyzing "idna.compat"
+2017-06-01T03:56:08: Analyzing "idna.core"
+2017-06-01T03:56:08: Analyzing "idna.idnadata"
+2017-06-01T03:56:08: Analyzing "idna.intranges"
+2017-06-01T03:56:08: Analyzing "idna.uts46data"
+2017-06-01T03:56:08: Analyzing "idna"
+2017-06-01T03:56:08: Starting analysis of 7 modules
+2017-06-01T04:02:25: Analysis complete
+2017-06-01T04:02:25: Saving group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna"
+2017-06-01T04:02:25: End of group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\idna"
+2017-06-01T04:02:25: Start group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests" with 18 files
+2017-06-01T04:02:28: Parsing "requests.adapters" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\adapters.py")
+2017-06-01T04:02:28: Parsing "requests.api" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\api.py")
+2017-06-01T04:02:28: Parsing "requests.auth" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\auth.py")
+2017-06-01T04:02:28: Parsing "requests.certs" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\certs.py")
+2017-06-01T04:02:28: Parsing "requests.compat" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\compat.py")
+2017-06-01T04:02:28: Parsing "requests.cookies" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\cookies.py")
+2017-06-01T04:02:28: Parsing "requests.exceptions" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\exceptions.py")
+2017-06-01T04:02:28: Parsing "requests.help" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\help.py")
+2017-06-01T04:02:28: Parsing "requests.hooks" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\hooks.py")
+2017-06-01T04:02:28: Parsing "requests.models" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\models.py")
+2017-06-01T04:02:28: Parsing "requests.packages" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\packages.py")
+2017-06-01T04:02:28: Parsing "requests.sessions" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\sessions.py")
+2017-06-01T04:02:28: Parsing "requests.status_codes" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\status_codes.py")
+2017-06-01T04:02:28: Parsing "requests.structures" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\structures.py")
+2017-06-01T04:02:28: Parsing "requests.utils" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\utils.py")
+2017-06-01T04:02:28: Parsing "requests._internal_utils" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\_internal_utils.py")
+2017-06-01T04:02:28: Parsing "requests" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\__init__.py")
+2017-06-01T04:02:28: Parsing "requests.__version__" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests\__version__.py")
+2017-06-01T04:02:28: Parsing complete
+2017-06-01T04:02:28: Analyzing "requests.adapters"
+2017-06-01T04:02:28: Analyzing "requests.api"
+2017-06-01T04:02:28: Analyzing "requests.auth"
+2017-06-01T04:02:28: Analyzing "requests.certs"
+2017-06-01T04:02:28: Analyzing "requests.compat"
+2017-06-01T04:02:28: Analyzing "requests.cookies"
+2017-06-01T04:02:28: Analyzing "requests.exceptions"
+2017-06-01T04:02:28: Analyzing "requests.help"
+2017-06-01T04:02:28: Analyzing "requests.hooks"
+2017-06-01T04:02:28: Analyzing "requests.models"
+2017-06-01T04:02:28: Analyzing "requests.packages"
+2017-06-01T04:02:28: Analyzing "requests.sessions"
+2017-06-01T04:02:28: Analyzing "requests.status_codes"
+2017-06-01T04:02:28: Analyzing "requests.structures"
+2017-06-01T04:02:28: Analyzing "requests.utils"
+2017-06-01T04:02:28: Analyzing "requests._internal_utils"
+2017-06-01T04:02:28: Analyzing "requests"
+2017-06-01T04:02:28: Analyzing "requests.__version__"
+2017-06-01T04:02:28: Starting analysis of 18 modules
+2017-06-01T04:02:29: Analysis complete
+2017-06-01T04:02:29: Saving group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests"
+2017-06-01T04:02:29: End of group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\requests"
+2017-06-01T04:02:29: Start group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3" with 36 files
+2017-06-01T04:02:32: Parsing "urllib3.connection" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\connection.py")
+2017-06-01T04:02:32: Parsing "urllib3.connectionpool" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\connectionpool.py")
+2017-06-01T04:02:32: Parsing "urllib3.exceptions" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\exceptions.py")
+2017-06-01T04:02:32: Parsing "urllib3.fields" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\fields.py")
+2017-06-01T04:02:32: Parsing "urllib3.filepost" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\filepost.py")
+2017-06-01T04:02:32: Parsing "urllib3.poolmanager" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\poolmanager.py")
+2017-06-01T04:02:32: Parsing "urllib3.request" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\request.py")
+2017-06-01T04:02:32: Parsing "urllib3.response" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\response.py")
+2017-06-01T04:02:32: Parsing "urllib3._collections" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\_collections.py")
+2017-06-01T04:02:32: Parsing "urllib3" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\__init__.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib.appengine" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\appengine.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib.ntlmpool" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\ntlmpool.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib.pyopenssl" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\pyopenssl.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib.securetransport" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\securetransport.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib.socks" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\socks.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\__init__.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib._securetransport.bindings" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\_securetransport\bindings.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib._securetransport.low_level" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\_securetransport\low_level.py")
+2017-06-01T04:02:32: Parsing "urllib3.contrib._securetransport" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\contrib\_securetransport\__init__.py")
+2017-06-01T04:02:32: Parsing "urllib3.packages.ordered_dict" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\packages\ordered_dict.py")
+2017-06-01T04:02:32: Parsing "urllib3.packages.six" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\packages\six.py")
+2017-06-01T04:02:32: Parsing "urllib3.packages" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\packages\__init__.py")
+2017-06-01T04:02:32: Parsing "urllib3.packages.backports.makefile" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\packages\backports\makefile.py")
+2017-06-01T04:02:32: Parsing "urllib3.packages.backports" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\packages\backports\__init__.py")
+2017-06-01T04:02:32: Parsing "urllib3.packages.ssl_match_hostname._implementation" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\packages\ssl_match_hostname\_implementation.py")
+2017-06-01T04:02:32: Parsing "urllib3.packages.ssl_match_hostname" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\packages\ssl_match_hostname\__init__.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.connection" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\connection.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.request" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\request.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.response" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\response.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.retry" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\retry.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.selectors" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\selectors.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.ssl_" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\ssl_.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.timeout" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\timeout.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.url" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\url.py")
+2017-06-01T04:02:32: Parsing "urllib3.util.wait" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\wait.py")
+2017-06-01T04:02:32: Parsing "urllib3.util" ("D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3\util\__init__.py")
+2017-06-01T04:02:32: Parsing complete
+2017-06-01T04:02:32: Analyzing "urllib3.connection"
+2017-06-01T04:02:32: Analyzing "urllib3.connectionpool"
+2017-06-01T04:02:32: Analyzing "urllib3.exceptions"
+2017-06-01T04:02:32: Analyzing "urllib3.fields"
+2017-06-01T04:02:32: Analyzing "urllib3.filepost"
+2017-06-01T04:02:32: Analyzing "urllib3.poolmanager"
+2017-06-01T04:02:32: Analyzing "urllib3.request"
+2017-06-01T04:02:32: Analyzing "urllib3.response"
+2017-06-01T04:02:32: Analyzing "urllib3._collections"
+2017-06-01T04:02:32: Analyzing "urllib3"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib.appengine"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib.ntlmpool"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib.pyopenssl"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib.securetransport"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib.socks"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib._securetransport.bindings"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib._securetransport.low_level"
+2017-06-01T04:02:32: Analyzing "urllib3.contrib._securetransport"
+2017-06-01T04:02:32: Analyzing "urllib3.packages.ordered_dict"
+2017-06-01T04:02:32: Analyzing "urllib3.packages.six"
+2017-06-01T04:02:32: Analyzing "urllib3.packages"
+2017-06-01T04:02:32: Analyzing "urllib3.packages.backports.makefile"
+2017-06-01T04:02:32: Analyzing "urllib3.packages.backports"
+2017-06-01T04:02:32: Analyzing "urllib3.packages.ssl_match_hostname._implementation"
+2017-06-01T04:02:32: Analyzing "urllib3.packages.ssl_match_hostname"
+2017-06-01T04:02:32: Analyzing "urllib3.util.connection"
+2017-06-01T04:02:32: Analyzing "urllib3.util.request"
+2017-06-01T04:02:32: Analyzing "urllib3.util.response"
+2017-06-01T04:02:32: Analyzing "urllib3.util.retry"
+2017-06-01T04:02:32: Analyzing "urllib3.util.selectors"
+2017-06-01T04:02:32: Analyzing "urllib3.util.ssl_"
+2017-06-01T04:02:32: Analyzing "urllib3.util.timeout"
+2017-06-01T04:02:32: Analyzing "urllib3.util.url"
+2017-06-01T04:02:32: Analyzing "urllib3.util.wait"
+2017-06-01T04:02:32: Analyzing "urllib3.util"
+2017-06-01T04:02:32: Starting analysis of 36 modules
+2017-06-01T04:02:33: Analysis complete
+2017-06-01T04:02:33: Saving group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3"
+2017-06-01T04:02:33: End of group "D:\Repos\django_get_news_feed_pinteres\env\Lib\site-packages\urllib3"
+2017-06-01T04:02:34: Deleting 0 files
