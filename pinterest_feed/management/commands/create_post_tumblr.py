@@ -39,9 +39,9 @@ class Command(BaseCommand):
             
 
         if b % 2 == 0:
-            post = client.create_photo('animegirlpin', state="queue", tags='anime girl', caption=title, source=str(img_url))
+            post = client.create_photo('animegirlpin', state="queue", tags=['anime girl',], caption=title, source=str(img_url))
         else:
-            post = client.create_photo('anime2018', state="queue", tags='anime girl', caption=title, source=str(img_url))
+            post = client.create_photo('anime2018', state="queue", tags=['anime girl',], caption=title, source=str(img_url))
 
         result = 'id' in post
         return result
