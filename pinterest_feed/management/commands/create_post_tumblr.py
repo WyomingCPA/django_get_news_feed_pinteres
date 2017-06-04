@@ -37,25 +37,11 @@ class Command(BaseCommand):
         if (title == ''):
             title = ''
             
-        Tagss = title.split()
-        listTag = []
-        for tag in Tagss:
-            if "." in tag:
-                tag = tag.replace('.', '')
-                listTag.append(tag)
-                continue
-
-            elif "," in tag:
-                tag = tag.replace(',', '')
-                listTag.append(tag)
-                continue
-
-            listTag.append(tag)
 
         if b % 2 == 0:
-            post = client.create_photo('animegirlpin', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
+            post = client.create_photo('animegirlpin', state="queue", tags='anime girl', caption=title, source=str(img_url))
         else:
-            post = client.create_photo('anime2018', state="queue", tags=listTag[:4], caption=title, source=str(img_url))
+            post = client.create_photo('anime2018', state="queue", tags='anime girl', caption=title, source=str(img_url))
 
         result = 'id' in post
         return result
